@@ -3283,6 +3283,12 @@ input, select, textarea {
 
 /* Intro */
 
+	#profile_pic {
+		width: 350px;
+		height: 350px;
+		border-radius: 175px;
+	}
+
 	#intro {
 		color: #ffffff;
 		padding: 8rem 4rem 6rem 4rem ;
