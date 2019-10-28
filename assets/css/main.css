@@ -4302,6 +4302,10 @@ input, select, textarea {
 							margin-top: -0.325rem;
 						}
 
+		#footer section.contact ul {
+			text-align: left;
+		}
+
 		#footer form label,
 		#footer h3,
 		#footer p {
