@@ -3637,6 +3637,7 @@ input, select, textarea {
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
+		display: none;
 	}
 
 		#nav ul.divided li {
@@ -3757,13 +3758,13 @@ input, select, textarea {
 			margin-bottom: 0;
 		}
 
-		@media screen and (max-width: 980px) {
+		/* @media screen and (max-width: 980px) {
 
 			#nav {
 				display: none;
 			}
 
-		}
+		} */
 
 /* Main */
 
@@ -3980,8 +3981,12 @@ input, select, textarea {
 		}
 
 		#footer a {
-			color: #717981;
-			border-bottom-color: rgba(113, 121, 129, 0.5);
+			text-transform: uppercase;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 900;
+			letter-spacing: 0.075em;
+			text-decoration: none;
+			border-bottom: none;
 		}
 
 			#footer a:hover {
@@ -3993,7 +3998,7 @@ input, select, textarea {
 			color: #717981;
 		}
 
-		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
+		#footer h1, #footer h2, #footer h3,  #footer h4, #footer h5, #footer h6 {
 			color: #717981;
 		}
 
@@ -4307,8 +4312,7 @@ input, select, textarea {
 		}
 
 		#footer form label,
-		#footer h3,
-		#footer p {
+		 {
 			font-size: 0.8rem;
 		}
 
@@ -4351,8 +4355,7 @@ input, select, textarea {
 						}
 
 				#footer form label,
-				#footer h3,
-				#footer p {
+				 {
 					font-size: 0.9rem;
 				}
 
@@ -4660,6 +4663,43 @@ input, select, textarea {
 
 			#navPanel .close:hover {
 				color: #212931;
+			}
+
+			#navPanel ul.nav-list {
+				list-style: none;
+				padding: 0;
+			
+			}
+
+			#navPanel  a {
+				text-transform: uppercase;
+				font-family: "Source Sans Pro", Helvetica, sans-serif;
+				font-weight: 900;
+				letter-spacing: 0.075em;
+				text-decoration: none;
+				border-bottom: none;
+			}
+
+			#navPanel h2 {
+				text-align: center;
+				color: #909498;
+			}
+
+			#navPanel h3 {
+				text-transform: uppercase;
+				font-family: "Source Sans Pro", Helvetica, sans-serif;
+				font-weight: 900;
+				letter-spacing: 0.075em;
+				text-decoration: none;
+				border-bottom: none;
+				color: #909498;
+
+			}
+
+			#navPanel h3,
+			#navPanel ul.nav-list {
+				border-top: solid 2px #e2e2e2;
+				padding-top: 20px;
 			}
 
 			@media screen and (max-width: 736px) {
