@@ -4399,6 +4399,16 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			#footer > section.split.contact > section {
+				padding: 2rem 0 !important;
+			}
+
+			#main footer h3 {
+				text-align: initial;
+			}
+
+
+
 		}
 
 	#copyright {
